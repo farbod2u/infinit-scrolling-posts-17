@@ -4,7 +4,7 @@ FROM node:18.19.0-alpine
 WORKDIR /home/backend
 
 # copy backend code to working directory
-COPY server.js ./server.js
+COPY backend/server.js ./server.js
 
 # install server dependencies
 RUN npm install  express

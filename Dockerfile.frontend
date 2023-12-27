@@ -19,4 +19,4 @@ FROM nginx:stable-alpine
 # exposing port 80
 EXPOSE 80
 
-COPY --from=builder  /app/dist/infinit-scrolling-posts /usr/share/nginx/html
+COPY --from=builder  /app/dist/infinit-scrolling-posts-17 /usr/share/nginx/html
